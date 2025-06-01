@@ -1,0 +1,449 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section > .box,
+header > .box,
+footer > .box {
+  width: 100%;
+  max-width: 860px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+section#banner {
+  background-color: #af382f;
+}
+section#banner .box .social-media-banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+}
+header .box {
+  padding: 20px;
+}
+header .box nav .nav__icon {
+  width: 100%;
+  padding: 10px;
+  text-align: right;
+}
+header .box nav .nav__order {
+  display: none;
+}
+header .box nav .nav__logo {
+  width: 100%;
+  padding: 10px;
+}
+header .box nav .nav__menu {
+  width: 100%;
+  padding: 10px;
+  display: none;
+}
+header .box nav .nav__menu ul li {
+  width: 100%;
+  padding: 20px;
+  list-style: none;
+}
+header .box nav .nav__menu ul li:hover {
+  background-color: #ff5403;
+}
+header .box nav .nav__menu ul li:hover a {
+  color: #fff;
+}
+header .box nav .nav__menu ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+main section#hero {
+  background-image: url("/assets/img/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main section#hero .box {
+  padding: 60px 30px;
+  text-align: center;
+  max-width: 860px;
+}
+main section#hero .box h1 {
+  color: #fff;
+  font-size: 36px;
+  padding: 20px;
+  padding-bottom: 60px;
+  padding-right: initial;
+}
+main section#hero .box a {
+  padding: 10px 20px;
+  background-color: #ff5403;
+  color: #fff;
+  border: 5px solid #af382f;
+  text-decoration: none;
+  font-size: 14px;
+}
+main section#lead {
+  background-color: #fff;
+}
+main section#lead .box .email-capture {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+main section#lead .box .email-capture p {
+  padding: 10px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+main section#lead .box .email-capture input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 4px solid #000;
+}
+main section#lead .box .email-capture input::-moz-placeholder {
+  color: #000;
+}
+main section#lead .box .email-capture input::placeholder {
+  color: #000;
+}
+main section#lead .box .email-capture button {
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: black;
+  color: #fff;
+  letter-spacing: 2px;
+}
+main section#featured {
+  background-color: #af382f;
+}
+main section#featured .box {
+  padding: 50px;
+}
+main section#featured .box .feature__heading {
+  padding: 50px 0;
+}
+main section#featured .box .feature__heading h1 {
+  font-size: 22px;
+  color: #fff;
+}
+main section#featured .box .feature__items {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+main section#featured .box .feature__items .item {
+  width: 100%;
+}
+main section#featured .box .feature__items .item .photo__ img {
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto;
+}
+main section#featured .box .feature__items .item .title__ {
+  padding: 20px 0;
+}
+main section#featured .box .feature__items .item .title__ h3 {
+  color: #fff;
+  font-size: 22px;
+}
+main section#featured .box .feature__items .item .subtext__ {
+  padding: 20px 0;
+  padding-bottom: 40px;
+}
+main section#featured .box .feature__items .item .subtext__ p {
+  color: #fff;
+  font-size: 16px;
+}
+main section#featured .box .feature__items .item .cta__ {
+  padding: 10px 0;
+}
+main section#featured .box .feature__items .item .cta__ a {
+  background-color: #000;
+  padding: 10px 50px;
+  text-decoration: none;
+  color: #fff;
+}
+main section#gift-cards .box .gift-cards-section {
+  position: relative;
+}
+main section#gift-cards .box .gift-cards-section .right__ img {
+  width: 100%;
+}
+main section#gift-cards .box .gift-cards-section .left__ {
+  width: 100%;
+  background: #fff;
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 20px;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  right: 0;
+  height: 320px;
+  z-index: 1;
+}
+main section#gift-cards .box .gift-cards-section .left__ h3 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 22px;
+  max-width: 350px;
+  margin: 0 auto;
+}
+main section#gift-cards .box .gift-cards-section .left__ p {
+  padding-bottom: 50px;
+  font-size: 18px;
+  max-width: 350px;
+  margin: 0 auto;
+}
+main section#gift-cards .box .gift-cards-section .left__ a {
+  padding: 15px;
+  margin-bottom: 50px;
+  background-color: #000;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  max-width: 350px;
+  margin: 0 auto;
+}
+main section#cta {
+  background-image: url("/assets/img/order-now-bkg.jpg");
+  background-size: cover;
+  position: relative;
+  top: -10px;
+}
+main section#cta .box .cta-content {
+  width: 100;
+  padding: 50px;
+}
+main section#cta .box .cta-content h2 {
+  padding-bottom: 50px;
+  color: #fff;
+  font-size: 24px;
+  line-height: 40px;
+}
+main section#cta .box .cta-content a {
+  background-color: #ff5403;
+  padding: 10px 50px;
+  text-decoration: none;
+  color: #fff;
+}
+main section#location .box {
+  padding: 50px;
+}
+main section#location .box .location-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+main section#location .box .location-content .left__ iframe {
+  width: 100%;
+}
+main section#location .box .location-content .right__ p {
+  padding: 20px;
+}
+main section#location .box .location-content .right__ span {
+  width: 100%;
+  display: block;
+  border: 3px solid #af382f;
+}
+
+footer {
+  background-color: #af382f;
+}
+footer .box {
+  padding: 20px;
+}
+footer .box .footer-links {
+  display: flex;
+  flex-direction: column;
+}
+footer .box .footer-links h3 {
+  color: #fff;
+  padding: 10px;
+  font-size: 14px;
+}
+footer .box .footer-links span {
+  width: 100%;
+  border: 1px solid #fff;
+  display: block;
+  margin: 10px 0;
+}
+footer .box .footer-links ul li {
+  padding: 10px;
+  color: #fff;
+  list-style: none;
+  font-size: 14px;
+}
+footer .box .footer-social {
+  padding: 5px;
+}
+footer .box .footer-terms p {
+  padding: 5px;
+  font-size: 14px;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  header .box {
+    padding: 0 20px;
+  }
+  header .box nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header .box nav .nav__icon {
+    display: none;
+  }
+  header .box nav .nav__order {
+    width: 30%;
+    text-align: left;
+    display: block;
+  }
+  header .box nav .nav__order a {
+    background-color: #af382f;
+    padding: 17px 30px;
+    border-radius: 35px;
+    text-decoration: none;
+    color: #fff;
+  }
+  header .box nav .nav__logo {
+    width: 30%;
+    text-align: center;
+  }
+  header .box nav .nav__logo img {
+    position: relative;
+    top: 5px;
+  }
+  header .box nav .nav__menu {
+    display: grid;
+    width: 30%;
+    padding: initial;
+  }
+  header .box nav .nav__menu ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+  header .box nav .nav__menu ul li {
+    padding: 10px;
+  }
+  header .box nav .nav__menu ul li a {
+    font-size: 14px;
+  }
+  main section#hero {
+    background-size: 100% 100%;
+  }
+  main section#hero .box {
+    height: 400px;
+    text-align: right;
+  }
+  main section#hero .box h1 {
+    line-height: 50px;
+  }
+  main section#hero .box a {
+    padding: 10px 50px;
+  }
+  main section#lead .box .email-capture {
+    flex-direction: row;
+    align-items: center;
+  }
+  main section#lead .box .email-capture p {
+    margin-bottom: initial;
+  }
+  main section#lead .box .email-capture input {
+    width: 40%;
+    margin-bottom: initial;
+  }
+  main section#lead .box .email-capture button {
+    margin-bottom: initial;
+    padding: 10px 30px;
+  }
+  main section#featured .box .feature__heading {
+    padding-top: 0px;
+  }
+  main section#featured .box .feature__heading h1 {
+    font-size: 36px;
+  }
+  main section#featured .box .feature__items {
+    flex-direction: row;
+  }
+  main section#featured .box .feature__items .item {
+    width: 100%;
+  }
+  main section#featured .box .feature__items .item .title__ {
+    text-align: center;
+  }
+  main section#featured .box .feature__items .item .subtext__ {
+    text-align: left;
+  }
+  main section#gift-cards .box {
+    max-width: initial;
+  }
+  main section#gift-cards .box .gift-cards-section {
+    width: 100%;
+    position: initial;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  main section#gift-cards .box .gift-cards-section .right__ {
+    width: 50%;
+  }
+  main section#gift-cards .box .gift-cards-section .left__ {
+    width: 50%;
+    background: #fff;
+    margin: 0 auto;
+    padding: initial;
+    position: initial;
+    top: initial;
+    left: initial;
+    right: initial;
+    height: initial;
+  }
+  main section#gift-cards .box .gift-cards-section .left__ h3 {
+    padding-top: initial;
+    font-size: 36px;
+  }
+  main section#cta .box .cta-content h2 {
+    font-size: 36px;
+    line-height: 60px;
+  }
+  main section#location .box .location-content {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+  }
+  main section#location .box .location-content .left__ {
+    width: 50%;
+  }
+  main section#location .box .location-content .right__ {
+    width: 40%;
+    text-align: right;
+  }
+  main section#location .box .location-content .right__ span {
+    width: 100%;
+  }
+  footer {
+    background-color: #af382f;
+  }
+  footer .box .footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 30px;
+  }
+  footer .box .footer-links .col__ {
+    width: 30%;
+    padding: 10px;
+    text-align: left;
+  }
+}/*# sourceMappingURL=style.css.map */
